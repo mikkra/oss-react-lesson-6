@@ -4,7 +4,7 @@ import LifecycleDemo from './components/LifecycleDemo';
 function App() {
   return (
     <div className="App">
-      <LifecycleDemo />
+      <LifecycleDemo age={22} />
     </div>
   );
 }
